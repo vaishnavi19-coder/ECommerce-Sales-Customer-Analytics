@@ -247,6 +247,26 @@ Advanced DAX calculations are used for:
 
 ---
 
+## Dashboard Preview
+
+### Executive Overview
+![Executive Overview](Screenshots/Executive_Overview.png)
+
+### Sales Analytics
+![Sales Analytics](Screenshots/Sales_Analytics.png)
+
+### Product Analytics
+![Product Analytics](Screenshots/Product_Analytics.png)
+
+### Customer Analytics
+![Customer Analytics](Screenshots/Customer_Analytics.png)
+
+### Operations & Payment
+![Operations & Payment](Screenshots/Operations_Payment.png)
+
+### Drill-through Detail
+![Drill-through Detail](Screenshots/Drillthrough_Detail.png)
+
 ## Project Structure
 
 ```text
