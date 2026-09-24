@@ -1,0 +1,501 @@
+ProductID,ProductName,Category,SubCategory,Brand,UnitCost,UnitPrice
+P0001,Home Decor Product 001,Home & Kitchen,Home Decor,HomeCentre,38200.18,60520.08
+P0002,Dog Supplies Product 002,Pet Supplies,Dog Supplies,Pedigree,4636.9,6357.38
+P0003,Dog Supplies Product 003,Pet Supplies,Dog Supplies,Drools,37536.67,48714.02
+P0004,Accessories Product 004,Fashion,Accessories,Roadster,44793.75,61049.79
+P0005,Comics Product 005,Books,Comics,Penguin,47447.72,68196.09
+P0006,Skincare Product 006,Beauty,Skincare,Nivea,42362.96,49942.81
+P0007,Laptops Product 007,Electronics,Laptops,Samsung,2483.68,3233.38
+P0008,Comics Product 008,Books,Comics,HarperCollins,37283.83,58498.42
+P0009,Outdoor Toys Product 009,Toys,Outdoor Toys,Mattel,24182.15,36739.59
+P0010,Laptops Product 010,Electronics,Laptops,Dell,31608.31,48314.82
+P0011,Laptops Product 011,Electronics,Laptops,Apple,1788.21,2177.96
+P0012,Educational Product 012,Toys,Educational,Hasbro,39731.09,63488.91
+P0013,Non-Fiction Product 013,Books,Non-Fiction,Penguin,12199.43,16027.95
+P0014,Action Product 014,Toys,Action,Funskool,43212.88,57051.08
+P0015,Comics Product 015,Books,Comics,Penguin,1253.64,1578.86
+P0016,Beverages Product 016,Grocery,Beverages,Britannia,28303.7,34321.1
+P0017,Bike Accessories Product 017,Automotive,Bike Accessories,Michelin,29044.58,36825.06
+P0018,Non-Fiction Product 018,Books,Non-Fiction,Oxford,10210.71,15581.78
+P0019,Women Clothing Product 019,Fashion,Women Clothing,Nike,42489.29,55249.93
+P0020,Beverages Product 020,Grocery,Beverages,Tata,25875.68,41533.41
+P0021,Sportswear Product 021,Sports,Sportswear,Puma,39462.59,65009.87
+P0022,Accessories Product 022,Electronics,Accessories,Sony,44788.86,71790.82
+P0023,Equipment Product 023,Sports,Equipment,Yonex,35533.83,42198.71
+P0024,Household Product 024,Grocery,Household,Britannia,47504.64,62676.53
+P0025,Household Product 025,Grocery,Household,ITC,20874.04,30210.98
+P0026,Women Clothing Product 026,Fashion,Women Clothing,Puma,14887.35,22274.01
+P0027,Food Product 027,Pet Supplies,Food,Whiskas,20822.18,32131.68
+P0028,Bike Accessories Product 028,Automotive,Bike Accessories,3M,25434.6,32317.5
+P0029,Action Product 029,Toys,Action,Mattel,23699.14,29631.91
+P0030,Action Product 030,Toys,Action,Mattel,28283.7,45877.1
+P0031,Accessories Product 031,Fashion,Accessories,Levis,20566.5,30147.3
+P0032,Board Games Product 032,Toys,Board Games,Mattel,6017.5,9767.61
+P0033,Mobiles Product 033,Electronics,Mobiles,Apple,39139.27,57454.43
+P0034,Haircare Product 034,Beauty,Haircare,Lakme,31374.3,38138.99
+P0035,Tools Product 035,Automotive,Tools,Michelin,32655.48,45038.66
+P0036,Equipment Product 036,Sports,Equipment,Adidas,36612.7,60019.13
+P0037,Skincare Product 037,Beauty,Skincare,Mamaearth,16649.16,22993.19
+P0038,Household Product 038,Grocery,Household,Nestle,25024.86,33902.69
+P0039,Grooming Product 039,Pet Supplies,Grooming,Drools,27852.79,40478.77
+P0040,Sportswear Product 040,Sports,Sportswear,Yonex,26485.36,38615.38
+P0041,Household Product 041,Grocery,Household,Tata,15618.96,18351.08
+P0042,Dog Supplies Product 042,Pet Supplies,Dog Supplies,Whiskas,24468.07,39215.72
+P0043,Comics Product 043,Books,Comics,Oxford,9024.09,13871.38
+P0044,Educational Product 044,Toys,Educational,Hasbro,49961.25,78681.89
+P0045,Accessories Product 045,Fashion,Accessories,Puma,32651.74,47363.46
+P0046,Food Product 046,Pet Supplies,Food,Royal Canin,5935.77,9476.07
+P0047,Care Product 047,Automotive,Care,Michelin,19431.1,31801.68
+P0048,Fiction Product 048,Books,Fiction,Pearson,12540.6,16307.11
+P0049,Snacks Product 049,Grocery,Snacks,Nestle,32230.24,43409.39
+P0050,Equipment Product 050,Sports,Equipment,Adidas,22795.25,35413.93
+P0051,Food Product 051,Pet Supplies,Food,Whiskas,3740.53,4386.54
+P0052,Cat Supplies Product 052,Pet Supplies,Cat Supplies,Royal Canin,6682.45,10593.9
+P0053,Comics Product 053,Books,Comics,Pearson,45291.3,64415.87
+P0054,Comics Product 054,Books,Comics,Penguin,45614.71,74633.16
+P0055,Accessories Product 055,Fashion,Accessories,Adidas,15563.25,22033.7
+P0056,Car Accessories Product 056,Automotive,Car Accessories,Bosch,36838.35,52127.98
+P0057,Equipment Product 057,Sports,Equipment,Adidas,42842.86,65755.29
+P0058,Dog Supplies Product 058,Pet Supplies,Dog Supplies,Royal Canin,47660.43,56240.17
+P0059,Furniture Product 059,Home & Kitchen,Furniture,Whirlpool,7451.57,11802.2
+P0060,Kitchen Product 060,Home & Kitchen,Kitchen,IKEA,11869.59,18863.02
+P0061,Home Decor Product 061,Home & Kitchen,Home Decor,Philips,11152.07,13088.9
+P0062,Board Games Product 062,Toys,Board Games,Mattel,20783.39,31988.59
+P0063,Footwear Product 063,Fashion,Footwear,Adidas,30808.49,37302.66
+P0064,Staples Product 064,Grocery,Staples,Nestle,31147.93,48548.63
+P0065,Household Product 065,Grocery,Household,Amul,32704.84,40645.82
+P0066,Academic Product 066,Books,Academic,Penguin,49517.76,75218.51
+P0067,Audio Product 067,Electronics,Audio,Apple,38483.85,49675.64
+P0068,Grooming Product 068,Pet Supplies,Grooming,Royal Canin,43943.82,64246.3
+P0069,Makeup Product 069,Beauty,Makeup,Mamaearth,14366.99,22217.58
+P0070,Academic Product 070,Books,Academic,Oxford,20465.19,25134.47
+P0071,Outdoor Toys Product 071,Toys,Outdoor Toys,LEGO,11790.57,18322.61
+P0072,Staples Product 072,Grocery,Staples,Tata,15347.33,19349.13
+P0073,Personal Care Product 073,Beauty,Personal Care,Lakme,22090.62,32202.47
+P0074,Academic Product 074,Books,Academic,Oxford,28744.25,40354.34
+P0075,Women Clothing Product 075,Fashion,Women Clothing,Nike,46024.24,67379.9
+P0076,Snacks Product 076,Grocery,Snacks,Nestle,29899.89,39678.14
+P0077,Dog Supplies Product 077,Pet Supplies,Dog Supplies,Whiskas,11624.21,17821.26
+P0078,Beverages Product 078,Grocery,Beverages,ITC,49867.63,76967.67
+P0079,Sportswear Product 079,Sports,Sportswear,Adidas,32763.61,47621.91
+P0080,Outdoor Product 080,Sports,Outdoor,Decathlon,40348.61,61764.66
+P0081,Car Accessories Product 081,Automotive,Car Accessories,Bosch,21112.44,33089.48
+P0082,Sportswear Product 082,Sports,Sportswear,Adidas,25992.15,41737.53
+P0083,Educational Product 083,Toys,Educational,LEGO,45664.78,62492.17
+P0084,Outdoor Product 084,Sports,Outdoor,Decathlon,40789.6,65211.86
+P0085,Kitchen Product 085,Home & Kitchen,Kitchen,Prestige,22441.03,36094.5
+P0086,Haircare Product 086,Beauty,Haircare,Maybelline,12735.59,16422.13
+P0087,Home Decor Product 087,Home & Kitchen,Home Decor,IKEA,35008.85,42510.69
+P0088,Academic Product 088,Books,Academic,Penguin,25113.86,33680.44
+P0089,Comics Product 089,Books,Comics,Pearson,9669.84,13637.25
+P0090,Skincare Product 090,Beauty,Skincare,Lakme,30511.95,38421.72
+P0091,Board Games Product 091,Toys,Board Games,Mattel,33443.91,46340.89
+P0092,Men Clothing Product 092,Fashion,Men Clothing,Roadster,37943.2,44274.59
+P0093,Educational Product 093,Toys,Educational,LEGO,10356.28,16652.16
+P0094,Haircare Product 094,Beauty,Haircare,Lakme,3289.45,5219.27
+P0095,Action Product 095,Toys,Action,LEGO,9055.88,11074.01
+P0096,Home Decor Product 096,Home & Kitchen,Home Decor,Prestige,41488.24,49318.64
+P0097,Laptops Product 097,Electronics,Laptops,Sony,46508.68,73406.83
+P0098,Sportswear Product 098,Sports,Sportswear,Adidas,30134.28,40700.2
+P0099,Haircare Product 099,Beauty,Haircare,Nivea,47033.39,72469.28
+P0100,Personal Care Product 100,Beauty,Personal Care,Nivea,38062.62,61581.76
+P0101,Non-Fiction Product 101,Books,Non-Fiction,Oxford,6446.55,8525.37
+P0102,Kitchen Product 102,Home & Kitchen,Kitchen,Whirlpool,39532.83,54134.51
+P0103,Footwear Product 103,Fashion,Footwear,Roadster,29147.28,45998.73
+P0104,Laptops Product 104,Electronics,Laptops,Lenovo,28361.8,36877.85
+P0105,Personal Care Product 105,Beauty,Personal Care,Mamaearth,2218.35,2845.48
+P0106,Action Product 106,Toys,Action,Mattel,28809.39,46383.35
+P0107,Sportswear Product 107,Sports,Sportswear,Adidas,1286.96,1655.19
+P0108,Personal Care Product 108,Beauty,Personal Care,Mamaearth,21891.93,26462.6
+P0109,Makeup Product 109,Beauty,Makeup,Loreal,24372.03,37288.8
+P0110,Dog Supplies Product 110,Pet Supplies,Dog Supplies,Royal Canin,35506.72,48321.07
+P0111,Grooming Product 111,Pet Supplies,Grooming,Pedigree,5787.89,7702.05
+P0112,Food Product 112,Pet Supplies,Food,Royal Canin,11301.08,17084.74
+P0113,Personal Care Product 113,Beauty,Personal Care,Nivea,10533.04,16294.29
+P0114,Board Games Product 114,Toys,Board Games,LEGO,21739.76,29835.68
+P0115,Men Clothing Product 115,Fashion,Men Clothing,Levis,27463.54,44307.51
+P0116,Comics Product 116,Books,Comics,Pearson,31731.41,50033.0
+P0117,Accessories Product 117,Fashion,Accessories,Nike,4825.85,7125.57
+P0118,Snacks Product 118,Grocery,Snacks,Nestle,30520.93,44400.35
+P0119,Grooming Product 119,Pet Supplies,Grooming,Drools,15519.92,22646.01
+P0120,Educational Product 120,Toys,Educational,Mattel,13496.7,17426.34
+P0121,Accessories Product 121,Fashion,Accessories,Nike,13193.2,16749.71
+P0122,Makeup Product 122,Beauty,Makeup,Maybelline,46106.51,72838.32
+P0123,Makeup Product 123,Beauty,Makeup,Maybelline,33839.37,49490.47
+P0124,Dog Supplies Product 124,Pet Supplies,Dog Supplies,Pedigree,22958.73,30092.17
+P0125,Grooming Product 125,Pet Supplies,Grooming,Whiskas,26251.49,31874.51
+P0126,Fitness Product 126,Sports,Fitness,Yonex,48986.46,59237.56
+P0127,Fitness Product 127,Sports,Fitness,Nike,24213.1,29487.16
+P0128,Laptops Product 128,Electronics,Laptops,Lenovo,46425.01,58911.86
+P0129,Haircare Product 129,Beauty,Haircare,Loreal,40360.81,58240.03
+P0130,Home Decor Product 130,Home & Kitchen,Home Decor,Prestige,39574.18,51733.76
+P0131,Action Product 131,Toys,Action,Hasbro,42917.84,59734.98
+P0132,Haircare Product 132,Beauty,Haircare,Mamaearth,5161.5,6220.35
+P0133,Equipment Product 133,Sports,Equipment,Puma,41536.67,49196.78
+P0134,Bike Accessories Product 134,Automotive,Bike Accessories,Castrol,20336.55,23644.2
+P0135,Bike Accessories Product 135,Automotive,Bike Accessories,Michelin,34816.11,56593.37
+P0136,Accessories Product 136,Electronics,Accessories,Apple,24376.19,33228.64
+P0137,Women Clothing Product 137,Fashion,Women Clothing,Adidas,44020.83,56227.31
+P0138,Fitness Product 138,Sports,Fitness,Yonex,49722.34,73392.87
+P0139,Bike Accessories Product 139,Automotive,Bike Accessories,Castrol,45567.03,74479.35
+P0140,Appliances Product 140,Home & Kitchen,Appliances,Philips,49789.65,70410.62
+P0141,Board Games Product 141,Toys,Board Games,Funskool,6376.46,10447.39
+P0142,Care Product 142,Automotive,Care,3M,14539.7,17646.99
+P0143,Equipment Product 143,Sports,Equipment,Nike,35541.26,44046.66
+P0144,Outdoor Product 144,Sports,Outdoor,Adidas,3685.03,4852.11
+P0145,Women Clothing Product 145,Fashion,Women Clothing,Roadster,32088.46,37907.26
+P0146,Fiction Product 146,Books,Fiction,Penguin,220.87,317.99
+P0147,Food Product 147,Pet Supplies,Food,Royal Canin,1859.11,2980.54
+P0148,Snacks Product 148,Grocery,Snacks,Tata,24181.85,28351.62
+P0149,Women Clothing Product 149,Fashion,Women Clothing,Roadster,12409.44,15426.37
+P0150,Skincare Product 150,Beauty,Skincare,Maybelline,6777.67,8267.78
+P0151,Food Product 151,Pet Supplies,Food,Drools,29662.44,38485.58
+P0152,Educational Product 152,Toys,Educational,Mattel,14738.6,21286.6
+P0153,Personal Care Product 153,Beauty,Personal Care,Lakme,2947.16,4283.53
+P0154,Appliances Product 154,Home & Kitchen,Appliances,HomeCentre,47127.71,68556.87
+P0155,Haircare Product 155,Beauty,Haircare,Lakme,23070.15,37833.79
+P0156,Furniture Product 156,Home & Kitchen,Furniture,IKEA,11302.73,15553.53
+P0157,Beverages Product 157,Grocery,Beverages,Britannia,38214.72,45290.76
+P0158,Fitness Product 158,Sports,Fitness,Nike,38580.14,47584.99
+P0159,Car Accessories Product 159,Automotive,Car Accessories,Michelin,9054.79,12243.78
+P0160,Sportswear Product 160,Sports,Sportswear,Puma,43378.13,53390.16
+P0161,Equipment Product 161,Sports,Equipment,Nike,34513.64,46471.58
+P0162,Appliances Product 162,Home & Kitchen,Appliances,HomeCentre,7435.81,11635.87
+P0163,Fitness Product 163,Sports,Fitness,Nike,46813.92,73556.16
+P0164,Accessories Product 164,Electronics,Accessories,Samsung,28750.52,37684.02
+P0165,Cat Supplies Product 165,Pet Supplies,Cat Supplies,Royal Canin,23671.2,33123.09
+P0166,Dog Supplies Product 166,Pet Supplies,Dog Supplies,Drools,34729.8,46701.4
+P0167,Accessories Product 167,Electronics,Accessories,HP,47464.01,77108.92
+P0168,Tools Product 168,Automotive,Tools,Bosch,5168.22,7091.8
+P0169,Tools Product 169,Automotive,Tools,3M,6848.33,9215.18
+P0170,Bike Accessories Product 170,Automotive,Bike Accessories,Michelin,43411.22,51946.11
+P0171,Food Product 171,Pet Supplies,Food,Pedigree,2722.39,3292.86
+P0172,Food Product 172,Pet Supplies,Food,Whiskas,4213.33,4930.44
+P0173,Comics Product 173,Books,Comics,Pearson,26159.56,35537.79
+P0174,Care Product 174,Automotive,Care,3M,36057.96,56090.28
+P0175,Men Clothing Product 175,Fashion,Men Clothing,Nike,8530.13,12941.59
+P0176,Cat Supplies Product 176,Pet Supplies,Cat Supplies,Drools,9361.69,13239.62
+P0177,Board Games Product 177,Toys,Board Games,LEGO,23081.6,33743.07
+P0178,Haircare Product 178,Beauty,Haircare,Mamaearth,40795.4,60109.56
+P0179,Haircare Product 179,Beauty,Haircare,Nivea,42420.34,51988.25
+P0180,Dog Supplies Product 180,Pet Supplies,Dog Supplies,Pedigree,19638.44,24988.82
+P0181,Care Product 181,Automotive,Care,3M,23622.32,35047.16
+P0182,Equipment Product 182,Sports,Equipment,Adidas,25523.88,33387.51
+P0183,Laptops Product 183,Electronics,Laptops,HP,15840.22,24024.55
+P0184,Haircare Product 184,Beauty,Haircare,Mamaearth,49132.0,73507.22
+P0185,Bike Accessories Product 185,Automotive,Bike Accessories,Michelin,28376.18,45683.49
+P0186,Tools Product 186,Automotive,Tools,Castrol,44098.5,57969.76
+P0187,Men Clothing Product 187,Fashion,Men Clothing,Roadster,21861.29,35699.24
+P0188,Furniture Product 188,Home & Kitchen,Furniture,IKEA,21446.09,30857.66
+P0189,Academic Product 189,Books,Academic,Penguin,47677.09,62260.82
+P0190,Academic Product 190,Books,Academic,Pearson,20335.15,31566.48
+P0191,Grooming Product 191,Pet Supplies,Grooming,Whiskas,49868.26,64629.47
+P0192,Food Product 192,Pet Supplies,Food,Pedigree,2057.47,3263.59
+P0193,Non-Fiction Product 193,Books,Non-Fiction,Penguin,49239.37,68991.25
+P0194,Action Product 194,Toys,Action,Hasbro,23672.95,32540.11
+P0195,Personal Care Product 195,Beauty,Personal Care,Mamaearth,19154.57,27032.32
+P0196,Action Product 196,Toys,Action,Funskool,906.04,1372.58
+P0197,Household Product 197,Grocery,Household,Nestle,32255.36,52940.88
+P0198,Action Product 198,Toys,Action,LEGO,23619.35,37736.18
+P0199,Kitchen Product 199,Home & Kitchen,Kitchen,IKEA,45346.78,56261.48
+P0200,Accessories Product 200,Fashion,Accessories,Nike,2238.02,2885.95
+P0201,Bike Accessories Product 201,Automotive,Bike Accessories,Michelin,4485.89,6212.17
+P0202,Beverages Product 202,Grocery,Beverages,Nestle,6165.57,10143.46
+P0203,Accessories Product 203,Electronics,Accessories,Dell,23896.77,35238.83
+P0204,Cat Supplies Product 204,Pet Supplies,Cat Supplies,Drools,5910.81,9287.74
+P0205,Staples Product 205,Grocery,Staples,Tata,574.79,696.08
+P0206,Care Product 206,Automotive,Care,Michelin,45298.37,61292.54
+P0207,Women Clothing Product 207,Fashion,Women Clothing,Roadster,34491.32,41962.46
+P0208,Home Decor Product 208,Home & Kitchen,Home Decor,Whirlpool,38705.31,46515.82
+P0209,Sportswear Product 209,Sports,Sportswear,Puma,8654.59,12502.66
+P0210,Care Product 210,Automotive,Care,3M,46704.86,62299.02
+P0211,Beverages Product 211,Grocery,Beverages,Nestle,27367.75,36595.34
+P0212,Academic Product 212,Books,Academic,Pearson,14213.26,20170.59
+P0213,Accessories Product 213,Electronics,Accessories,HP,32432.62,45047.01
+P0214,Academic Product 214,Books,Academic,HarperCollins,10370.21,11934.05
+P0215,Personal Care Product 215,Beauty,Personal Care,Maybelline,34530.98,47981.26
+P0216,Staples Product 216,Grocery,Staples,Nestle,10600.05,17093.04
+P0217,Skincare Product 217,Beauty,Skincare,Nivea,40858.62,56493.43
+P0218,Non-Fiction Product 218,Books,Non-Fiction,Oxford,14200.27,20511.42
+P0219,Appliances Product 219,Home & Kitchen,Appliances,IKEA,1950.46,2836.49
+P0220,Kitchen Product 220,Home & Kitchen,Kitchen,Prestige,10553.72,14277.05
+P0221,Fitness Product 221,Sports,Fitness,Nike,29275.51,34224.43
+P0222,Fitness Product 222,Sports,Fitness,Puma,49854.18,81117.51
+P0223,Makeup Product 223,Beauty,Makeup,Mamaearth,6907.17,8444.28
+P0224,Accessories Product 224,Electronics,Accessories,HP,30605.95,35821.72
+P0225,Men Clothing Product 225,Fashion,Men Clothing,Adidas,19131.26,26931.29
+P0226,Care Product 226,Automotive,Care,Bosch,46417.77,61171.32
+P0227,Household Product 227,Grocery,Household,Amul,32352.14,48165.3
+P0228,Skincare Product 228,Beauty,Skincare,Loreal,44048.85,70405.17
+P0229,Fiction Product 229,Books,Fiction,Pearson,33834.14,42681.53
+P0230,Footwear Product 230,Fashion,Footwear,Levis,29852.37,34533.43
+P0231,Outdoor Product 231,Sports,Outdoor,Puma,15306.66,24795.46
+P0232,Care Product 232,Automotive,Care,Michelin,21593.02,34238.94
+P0233,Accessories Product 233,Electronics,Accessories,Apple,48122.62,55697.89
+P0234,Beverages Product 234,Grocery,Beverages,Nestle,20133.03,31535.95
+P0235,Makeup Product 235,Beauty,Makeup,Lakme,16892.12,19805.11
+P0236,Non-Fiction Product 236,Books,Non-Fiction,Pearson,44390.08,63236.51
+P0237,Outdoor Toys Product 237,Toys,Outdoor Toys,LEGO,27451.26,41331.17
+P0238,Bike Accessories Product 238,Automotive,Bike Accessories,3M,39264.3,57970.37
+P0239,Outdoor Toys Product 239,Toys,Outdoor Toys,Mattel,9167.83,12641.86
+P0240,Sportswear Product 240,Sports,Sportswear,Yonex,983.05,1374.43
+P0241,Staples Product 241,Grocery,Staples,ITC,21945.85,35746.54
+P0242,Outdoor Product 242,Sports,Outdoor,Puma,34878.82,44240.99
+P0243,Makeup Product 243,Beauty,Makeup,Nivea,16717.18,22513.98
+P0244,Audio Product 244,Electronics,Audio,HP,2567.59,3317.22
+P0245,Car Accessories Product 245,Automotive,Car Accessories,3M,31746.32,47893.82
+P0246,Comics Product 246,Books,Comics,HarperCollins,41504.22,51005.49
+P0247,Home Decor Product 247,Home & Kitchen,Home Decor,HomeCentre,47988.76,68728.99
+P0248,Educational Product 248,Toys,Educational,Funskool,33342.95,50603.68
+P0249,Snacks Product 249,Grocery,Snacks,Britannia,25862.73,42593.36
+P0250,Audio Product 250,Electronics,Audio,Samsung,40709.15,48268.97
+P0251,Dog Supplies Product 251,Pet Supplies,Dog Supplies,Royal Canin,26075.12,42640.92
+P0252,Mobiles Product 252,Electronics,Mobiles,Samsung,19943.85,23957.25
+P0253,Outdoor Toys Product 253,Toys,Outdoor Toys,LEGO,7620.27,12367.42
+P0254,Laptops Product 254,Electronics,Laptops,Lenovo,16939.12,25543.84
+P0255,Outdoor Toys Product 255,Toys,Outdoor Toys,Mattel,7811.92,9354.12
+P0256,Kitchen Product 256,Home & Kitchen,Kitchen,Philips,12678.25,20346.54
+P0257,Comics Product 257,Books,Comics,HarperCollins,5240.87,8385.3
+P0258,Cat Supplies Product 258,Pet Supplies,Cat Supplies,Pedigree,20983.42,24826.11
+P0259,Outdoor Toys Product 259,Toys,Outdoor Toys,LEGO,38500.83,61852.22
+P0260,Non-Fiction Product 260,Books,Non-Fiction,HarperCollins,36422.03,53249.8
+P0261,Fitness Product 261,Sports,Fitness,Nike,34935.48,40771.41
+P0262,Accessories Product 262,Fashion,Accessories,Levis,18581.93,22515.67
+P0263,Dog Supplies Product 263,Pet Supplies,Dog Supplies,Drools,15786.0,21738.06
+P0264,Makeup Product 264,Beauty,Makeup,Maybelline,24135.05,37276.08
+P0265,Dog Supplies Product 265,Pet Supplies,Dog Supplies,Pedigree,3661.68,5861.84
+P0266,Equipment Product 266,Sports,Equipment,Yonex,7954.05,11697.04
+P0267,Staples Product 267,Grocery,Staples,Britannia,35565.23,43740.05
+P0268,Academic Product 268,Books,Academic,Penguin,15334.9,23615.14
+P0269,Car Accessories Product 269,Automotive,Car Accessories,3M,48651.79,57177.25
+P0270,Sportswear Product 270,Sports,Sportswear,Puma,44905.35,54046.3
+P0271,Fiction Product 271,Books,Fiction,Pearson,13002.61,19437.94
+P0272,Outdoor Product 272,Sports,Outdoor,Puma,10986.65,12715.97
+P0273,Tools Product 273,Automotive,Tools,Michelin,33117.95,39958.27
+P0274,Action Product 274,Toys,Action,LEGO,12182.33,18315.94
+P0275,Food Product 275,Pet Supplies,Food,Pedigree,48802.72,64887.1
+P0276,Non-Fiction Product 276,Books,Non-Fiction,Oxford,19414.85,29639.45
+P0277,Educational Product 277,Toys,Educational,Funskool,2927.9,4711.49
+P0278,Comics Product 278,Books,Comics,Pearson,23402.39,33649.93
+P0279,Household Product 279,Grocery,Household,Nestle,27676.48,43538.31
+P0280,Outdoor Toys Product 280,Toys,Outdoor Toys,Hasbro,4375.77,7166.02
+P0281,Personal Care Product 281,Beauty,Personal Care,Maybelline,29985.88,43182.48
+P0282,Personal Care Product 282,Beauty,Personal Care,Loreal,13977.77,21038.55
+P0283,Fitness Product 283,Sports,Fitness,Nike,12763.62,14947.01
+P0284,Haircare Product 284,Beauty,Haircare,Maybelline,31601.74,37876.48
+P0285,Mobiles Product 285,Electronics,Mobiles,Sony,21921.32,35217.79
+P0286,Sportswear Product 286,Sports,Sportswear,Adidas,30259.92,38718.39
+P0287,Kitchen Product 287,Home & Kitchen,Kitchen,IKEA,43520.62,60187.55
+P0288,Fitness Product 288,Sports,Fitness,Yonex,29049.51,35513.23
+P0289,Kitchen Product 289,Home & Kitchen,Kitchen,Philips,37819.7,54920.22
+P0290,Outdoor Toys Product 290,Toys,Outdoor Toys,Funskool,31947.96,47710.43
+P0291,Snacks Product 291,Grocery,Snacks,Britannia,31374.35,51167.67
+P0292,Sportswear Product 292,Sports,Sportswear,Puma,26153.66,32192.91
+P0293,Sportswear Product 293,Sports,Sportswear,Decathlon,10795.8,12487.17
+P0294,Care Product 294,Automotive,Care,Bosch,9174.45,11851.4
+P0295,Equipment Product 295,Sports,Equipment,Decathlon,25785.22,39934.4
+P0296,Appliances Product 296,Home & Kitchen,Appliances,Prestige,13917.89,18773.7
+P0297,Personal Care Product 297,Beauty,Personal Care,Nivea,47426.96,54866.92
+P0298,Audio Product 298,Electronics,Audio,Dell,16562.72,23024.57
+P0299,Accessories Product 299,Fashion,Accessories,Levis,8342.38,9679.34
+P0300,Furniture Product 300,Home & Kitchen,Furniture,Whirlpool,2104.19,2586.42
+P0301,Laptops Product 301,Electronics,Laptops,Lenovo,34391.32,46316.75
+P0302,Tools Product 302,Automotive,Tools,Castrol,46434.16,69332.86
+P0303,Equipment Product 303,Sports,Equipment,Decathlon,40595.27,60306.18
+P0304,Accessories Product 304,Fashion,Accessories,Nike,49841.55,58156.21
+P0305,Grooming Product 305,Pet Supplies,Grooming,Royal Canin,10940.54,14674.08
+P0306,Tools Product 306,Automotive,Tools,Bosch,16334.74,22520.05
+P0307,Men Clothing Product 307,Fashion,Men Clothing,Adidas,43229.79,66479.31
+P0308,Snacks Product 308,Grocery,Snacks,Britannia,6326.82,7816.38
+P0309,Haircare Product 309,Beauty,Haircare,Loreal,44298.34,66490.78
+P0310,Makeup Product 310,Beauty,Makeup,Maybelline,3332.49,4315.3
+P0311,Footwear Product 311,Fashion,Footwear,Puma,25483.02,29454.58
+P0312,Men Clothing Product 312,Fashion,Men Clothing,Puma,38635.25,49721.68
+P0313,Fitness Product 313,Sports,Fitness,Adidas,28150.41,43755.71
+P0314,Action Product 314,Toys,Action,Mattel,7079.95,10137.47
+P0315,Home Decor Product 315,Home & Kitchen,Home Decor,Prestige,12150.95,14696.74
+P0316,Outdoor Product 316,Sports,Outdoor,Yonex,10779.76,12884.62
+P0317,Educational Product 317,Toys,Educational,Mattel,38012.39,60329.46
+P0318,Beverages Product 318,Grocery,Beverages,Britannia,29198.53,43885.43
+P0319,Makeup Product 319,Beauty,Makeup,Maybelline,17700.93,23589.55
+P0320,Furniture Product 320,Home & Kitchen,Furniture,Philips,22905.89,32874.44
+P0321,Household Product 321,Grocery,Household,Britannia,40549.07,47208.67
+P0322,Household Product 322,Grocery,Household,Tata,22623.35,27485.17
+P0323,Fitness Product 323,Sports,Fitness,Decathlon,15710.12,20154.03
+P0324,Beverages Product 324,Grocery,Beverages,Amul,36311.97,45431.01
+P0325,Women Clothing Product 325,Fashion,Women Clothing,Levis,20031.25,31401.46
+P0326,Educational Product 326,Toys,Educational,Hasbro,23248.46,36784.97
+P0327,Food Product 327,Pet Supplies,Food,Pedigree,47060.56,58375.66
+P0328,Grooming Product 328,Pet Supplies,Grooming,Whiskas,16998.83,24445.78
+P0329,Care Product 329,Automotive,Care,Bosch,12490.97,14941.43
+P0330,Kitchen Product 330,Home & Kitchen,Kitchen,Prestige,37612.64,58137.16
+P0331,Men Clothing Product 331,Fashion,Men Clothing,Adidas,32162.97,45107.84
+P0332,Kitchen Product 332,Home & Kitchen,Kitchen,Whirlpool,26943.78,37700.95
+P0333,Snacks Product 333,Grocery,Snacks,Nestle,29583.3,43663.96
+P0334,Mobiles Product 334,Electronics,Mobiles,Sony,45336.39,52187.92
+P0335,Footwear Product 335,Fashion,Footwear,Adidas,30372.36,47772.12
+P0336,Fitness Product 336,Sports,Fitness,Nike,37223.75,50159.22
+P0337,Home Decor Product 337,Home & Kitchen,Home Decor,IKEA,15712.61,20718.55
+P0338,Care Product 338,Automotive,Care,Bosch,40371.5,51991.31
+P0339,Academic Product 339,Books,Academic,Penguin,35782.31,46171.64
+P0340,Outdoor Product 340,Sports,Outdoor,Decathlon,39945.91,47957.56
+P0341,Skincare Product 341,Beauty,Skincare,Maybelline,47400.96,73931.23
+P0342,Action Product 342,Toys,Action,Mattel,30590.51,44553.52
+P0343,Snacks Product 343,Grocery,Snacks,Britannia,38015.1,50273.16
+P0344,Makeup Product 344,Beauty,Makeup,Loreal,29220.61,40347.99
+P0345,Outdoor Toys Product 345,Toys,Outdoor Toys,Mattel,19801.28,23097.74
+P0346,Educational Product 346,Toys,Educational,LEGO,20304.59,25689.58
+P0347,Dog Supplies Product 347,Pet Supplies,Dog Supplies,Pedigree,25128.36,37176.79
+P0348,Bike Accessories Product 348,Automotive,Bike Accessories,3M,15453.04,19465.29
+P0349,Kitchen Product 349,Home & Kitchen,Kitchen,Whirlpool,29350.15,38191.23
+P0350,Haircare Product 350,Beauty,Haircare,Mamaearth,28384.5,45231.56
+P0351,Personal Care Product 351,Beauty,Personal Care,Loreal,37447.32,54337.77
+P0352,Outdoor Toys Product 352,Toys,Outdoor Toys,Mattel,36875.57,49903.0
+P0353,Food Product 353,Pet Supplies,Food,Royal Canin,48576.52,56315.03
+P0354,Women Clothing Product 354,Fashion,Women Clothing,Levis,14619.02,20141.21
+P0355,Bike Accessories Product 355,Automotive,Bike Accessories,3M,49917.96,61615.13
+P0356,Grooming Product 356,Pet Supplies,Grooming,Pedigree,26507.74,41618.82
+P0357,Tools Product 357,Automotive,Tools,3M,45774.88,63235.88
+P0358,Audio Product 358,Electronics,Audio,Lenovo,7927.29,12562.6
+P0359,Academic Product 359,Books,Academic,HarperCollins,4319.61,6188.47
+P0360,Fitness Product 360,Sports,Fitness,Yonex,14190.96,20395.44
+P0361,Kitchen Product 361,Home & Kitchen,Kitchen,IKEA,10975.1,16701.35
+P0362,Cat Supplies Product 362,Pet Supplies,Cat Supplies,Pedigree,47780.67,67444.04
+P0363,Equipment Product 363,Sports,Equipment,Adidas,31937.02,41629.18
+P0364,Outdoor Toys Product 364,Toys,Outdoor Toys,Mattel,26628.01,40349.31
+P0365,Audio Product 365,Electronics,Audio,HP,34483.04,56059.32
+P0366,Audio Product 366,Electronics,Audio,Apple,36703.79,59345.4
+P0367,Sportswear Product 367,Sports,Sportswear,Adidas,16363.13,24813.02
+P0368,Fiction Product 368,Books,Fiction,Oxford,36378.44,48660.98
+P0369,Skincare Product 369,Beauty,Skincare,Lakme,37122.62,45429.44
+P0370,Mobiles Product 370,Electronics,Mobiles,Dell,10752.7,13170.81
+P0371,Makeup Product 371,Beauty,Makeup,Loreal,10669.5,15248.26
+P0372,Skincare Product 372,Beauty,Skincare,Nivea,24245.03,32236.96
+P0373,Home Decor Product 373,Home & Kitchen,Home Decor,Philips,27295.71,42376.3
+P0374,Grooming Product 374,Pet Supplies,Grooming,Royal Canin,3591.37,5389.35
+P0375,Mobiles Product 375,Electronics,Mobiles,Lenovo,15127.2,24238.87
+P0376,Footwear Product 376,Fashion,Footwear,Nike,19793.16,28081.93
+P0377,Beverages Product 377,Grocery,Beverages,Tata,6373.4,9602.74
+P0378,Kitchen Product 378,Home & Kitchen,Kitchen,Philips,33180.64,50544.92
+P0379,Educational Product 379,Toys,Educational,Mattel,44340.25,62023.59
+P0380,Outdoor Product 380,Sports,Outdoor,Puma,8887.24,13994.79
+P0381,Grooming Product 381,Pet Supplies,Grooming,Drools,21443.73,24926.56
+P0382,Care Product 382,Automotive,Care,Castrol,49084.68,65277.95
+P0383,Furniture Product 383,Home & Kitchen,Furniture,HomeCentre,16018.51,20477.19
+P0384,Grooming Product 384,Pet Supplies,Grooming,Pedigree,9185.05,15127.83
+P0385,Outdoor Product 385,Sports,Outdoor,Decathlon,44746.82,72417.63
+P0386,Haircare Product 386,Beauty,Haircare,Loreal,28695.3,46681.14
+P0387,Women Clothing Product 387,Fashion,Women Clothing,Puma,36334.36,59077.56
+P0388,Accessories Product 388,Electronics,Accessories,Dell,44512.95,51612.12
+P0389,Sportswear Product 389,Sports,Sportswear,Decathlon,15736.23,19120.81
+P0390,Mobiles Product 390,Electronics,Mobiles,Apple,41629.6,53334.01
+P0391,Skincare Product 391,Beauty,Skincare,Maybelline,33359.24,44456.52
+P0392,Food Product 392,Pet Supplies,Food,Royal Canin,4894.27,5979.52
+P0393,Dog Supplies Product 393,Pet Supplies,Dog Supplies,Royal Canin,10053.23,12268.04
+P0394,Staples Product 394,Grocery,Staples,ITC,1723.24,2823.54
+P0395,Equipment Product 395,Sports,Equipment,Nike,28912.04,34405.12
+P0396,Cat Supplies Product 396,Pet Supplies,Cat Supplies,Royal Canin,32210.84,46980.36
+P0397,Dog Supplies Product 397,Pet Supplies,Dog Supplies,Drools,8100.61,10028.95
+P0398,Household Product 398,Grocery,Household,ITC,43359.12,61661.97
+P0399,Board Games Product 399,Toys,Board Games,Hasbro,49420.65,71356.31
+P0400,Footwear Product 400,Fashion,Footwear,Levis,41002.05,64730.01
+P0401,Staples Product 401,Grocery,Staples,Tata,35457.6,55276.41
+P0402,Food Product 402,Pet Supplies,Food,Pedigree,13332.83,17809.87
+P0403,Outdoor Product 403,Sports,Outdoor,Nike,48564.3,80033.34
+P0404,Personal Care Product 404,Beauty,Personal Care,Loreal,16194.81,25522.92
+P0405,Accessories Product 405,Electronics,Accessories,Apple,8883.61,12101.34
+P0406,Beverages Product 406,Grocery,Beverages,Nestle,4805.49,6341.61
+P0407,Audio Product 407,Electronics,Audio,Sony,43185.81,53425.2
+P0408,Non-Fiction Product 408,Books,Non-Fiction,HarperCollins,2816.89,4619.62
+P0409,Educational Product 409,Toys,Educational,Hasbro,36949.48,56883.94
+P0410,Household Product 410,Grocery,Household,Tata,3711.84,6091.6
+P0411,Women Clothing Product 411,Fashion,Women Clothing,Levis,22788.16,36129.52
+P0412,Men Clothing Product 412,Fashion,Men Clothing,Levis,40795.8,59450.27
+P0413,Snacks Product 413,Grocery,Snacks,Tata,28961.17,42808.2
+P0414,Appliances Product 414,Home & Kitchen,Appliances,IKEA,21142.85,29962.4
+P0415,Action Product 415,Toys,Action,Mattel,36419.99,43255.74
+P0416,Grooming Product 416,Pet Supplies,Grooming,Whiskas,46231.69,70397.69
+P0417,Tools Product 417,Automotive,Tools,Castrol,35054.31,56355.53
+P0418,Dog Supplies Product 418,Pet Supplies,Dog Supplies,Pedigree,14831.44,18601.57
+P0419,Home Decor Product 419,Home & Kitchen,Home Decor,Whirlpool,2466.1,2855.42
+P0420,Home Decor Product 420,Home & Kitchen,Home Decor,Philips,9820.99,15452.18
+P0421,Personal Care Product 421,Beauty,Personal Care,Loreal,5980.47,9363.09
+P0422,Tools Product 422,Automotive,Tools,Bosch,26237.88,42145.35
+P0423,Grooming Product 423,Pet Supplies,Grooming,Royal Canin,21321.98,30745.42
+P0424,Furniture Product 424,Home & Kitchen,Furniture,IKEA,3482.33,4019.79
+P0425,Furniture Product 425,Home & Kitchen,Furniture,Whirlpool,9521.47,11949.24
+P0426,Food Product 426,Pet Supplies,Food,Royal Canin,8078.36,13177.69
+P0427,Fiction Product 427,Books,Fiction,HarperCollins,7810.99,11387.78
+P0428,Sportswear Product 428,Sports,Sportswear,Adidas,4256.71,6322.57
+P0429,Accessories Product 429,Electronics,Accessories,Lenovo,44223.1,65619.57
+P0430,Snacks Product 430,Grocery,Snacks,Nestle,48441.56,73911.25
+P0431,Makeup Product 431,Beauty,Makeup,Maybelline,18038.3,25719.83
+P0432,Cat Supplies Product 432,Pet Supplies,Cat Supplies,Pedigree,45306.14,73134.3
+P0433,Car Accessories Product 433,Automotive,Car Accessories,Castrol,35436.78,44606.12
+P0434,Skincare Product 434,Beauty,Skincare,Lakme,4207.39,5819.36
+P0435,Makeup Product 435,Beauty,Makeup,Loreal,35310.96,55080.01
+P0436,Car Accessories Product 436,Automotive,Car Accessories,Bosch,25591.4,31579.31
+P0437,Care Product 437,Automotive,Care,Bosch,32631.96,42372.13
+P0438,Mobiles Product 438,Electronics,Mobiles,Lenovo,41210.08,54476.44
+P0439,Sportswear Product 439,Sports,Sportswear,Nike,38390.66,51457.44
+P0440,Men Clothing Product 440,Fashion,Men Clothing,Roadster,6910.7,9208.42
+P0441,Dog Supplies Product 441,Pet Supplies,Dog Supplies,Drools,38769.9,59167.87
+P0442,Household Product 442,Grocery,Household,ITC,22672.88,34291.2
+P0443,Footwear Product 443,Fashion,Footwear,Nike,42309.4,49649.11
+P0444,Beverages Product 444,Grocery,Beverages,Nestle,24736.76,34009.76
+P0445,Care Product 445,Automotive,Care,Castrol,36089.14,49790.99
+P0446,Staples Product 446,Grocery,Staples,Tata,20088.81,28183.0
+P0447,Equipment Product 447,Sports,Equipment,Puma,11846.8,16204.1
+P0448,Non-Fiction Product 448,Books,Non-Fiction,Pearson,49469.35,68576.52
+P0449,Fiction Product 449,Books,Fiction,Pearson,13429.79,20268.18
+P0450,Outdoor Toys Product 450,Toys,Outdoor Toys,Funskool,11606.55,13956.49
+P0451,Snacks Product 451,Grocery,Snacks,ITC,19879.18,28348.47
+P0452,Fiction Product 452,Books,Fiction,Oxford,1257.74,1846.56
+P0453,Footwear Product 453,Fashion,Footwear,Levis,23911.7,39356.95
+P0454,Tools Product 454,Automotive,Tools,Bosch,9906.13,13214.34
+P0455,Mobiles Product 455,Electronics,Mobiles,Samsung,46257.5,58728.52
+P0456,Fitness Product 456,Sports,Fitness,Adidas,19692.55,27827.63
+P0457,Equipment Product 457,Sports,Equipment,Puma,48911.12,80642.27
+P0458,Personal Care Product 458,Beauty,Personal Care,Mamaearth,24797.45,32940.08
+P0459,Audio Product 459,Electronics,Audio,Sony,22529.23,26045.09
+P0460,Fitness Product 460,Sports,Fitness,Nike,40427.7,51604.33
+P0461,Tools Product 461,Automotive,Tools,Michelin,45923.67,75694.93
+P0462,Kitchen Product 462,Home & Kitchen,Kitchen,Philips,12730.23,20438.55
+P0463,Makeup Product 463,Beauty,Makeup,Nivea,14643.52,22749.29
+P0464,Audio Product 464,Electronics,Audio,HP,13394.91,21003.24
+P0465,Home Decor Product 465,Home & Kitchen,Home Decor,Whirlpool,1078.59,1599.66
+P0466,Comics Product 466,Books,Comics,Penguin,20789.29,30127.62
+P0467,Men Clothing Product 467,Fashion,Men Clothing,Nike,5317.91,6122.85
+P0468,Makeup Product 468,Beauty,Makeup,Lakme,11116.28,12846.19
+P0469,Makeup Product 469,Beauty,Makeup,Nivea,30371.52,44749.13
+P0470,Makeup Product 470,Beauty,Makeup,Mamaearth,4987.23,7219.04
+P0471,Haircare Product 471,Beauty,Haircare,Lakme,33116.35,52112.51
+P0472,Dog Supplies Product 472,Pet Supplies,Dog Supplies,Royal Canin,23635.73,29948.37
+P0473,Educational Product 473,Toys,Educational,Hasbro,37490.42,47723.49
+P0474,Bike Accessories Product 474,Automotive,Bike Accessories,Castrol,2716.06,3532.26
+P0475,Home Decor Product 475,Home & Kitchen,Home Decor,Philips,3640.87,5395.91
+P0476,Makeup Product 476,Beauty,Makeup,Lakme,11226.13,14004.75
+P0477,Fiction Product 477,Books,Fiction,Pearson,38776.78,61159.13
+P0478,Makeup Product 478,Beauty,Makeup,Mamaearth,3081.41,4359.37
+P0479,Equipment Product 479,Sports,Equipment,Adidas,30704.3,39966.8
+P0480,Accessories Product 480,Electronics,Accessories,Lenovo,19518.16,28704.78
+P0481,Women Clothing Product 481,Fashion,Women Clothing,Roadster,1241.77,1566.77
+P0482,Women Clothing Product 482,Fashion,Women Clothing,Nike,46334.59,65356.79
+P0483,Women Clothing Product 483,Fashion,Women Clothing,Roadster,5925.22,8207.83
+P0484,Furniture Product 484,Home & Kitchen,Furniture,HomeCentre,37945.43,59253.93
+P0485,Kitchen Product 485,Home & Kitchen,Kitchen,Philips,4210.49,6278.11
+P0486,Laptops Product 486,Electronics,Laptops,HP,37058.64,57001.33
+P0487,Accessories Product 487,Electronics,Accessories,HP,32789.91,49189.53
+P0488,Educational Product 488,Toys,Educational,Mattel,25739.93,30035.48
+P0489,Food Product 489,Pet Supplies,Food,Royal Canin,42909.69,63512.19
+P0490,Fitness Product 490,Sports,Fitness,Nike,43927.44,71501.68
+P0491,Educational Product 491,Toys,Educational,LEGO,27436.95,34508.06
+P0492,Food Product 492,Pet Supplies,Food,Royal Canin,22449.15,36484.66
+P0493,Snacks Product 493,Grocery,Snacks,Amul,12271.9,16213.98
+P0494,Mobiles Product 494,Electronics,Mobiles,Sony,28758.0,36572.73
+P0495,Home Decor Product 495,Home & Kitchen,Home Decor,IKEA,22039.18,33403.58
+P0496,Mobiles Product 496,Electronics,Mobiles,HP,27515.8,43263.18
+P0497,Educational Product 497,Toys,Educational,LEGO,23116.17,27454.06
+P0498,Mobiles Product 498,Electronics,Mobiles,Dell,38916.26,46507.43
+P0499,Board Games Product 499,Toys,Board Games,Mattel,14155.91,21349.85
+P0500,Kitchen Product 500,Home & Kitchen,Kitchen,Philips,23888.24,38467.04

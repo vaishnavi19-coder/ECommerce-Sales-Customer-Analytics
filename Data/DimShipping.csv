@@ -1,0 +1,4 @@
+ShippingID,ShippingMode,DeliveryDays
+S001,Standard,5
+S002,Express,2
+S003,Same Day,1

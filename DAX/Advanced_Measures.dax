@@ -1,0 +1,204 @@
+-- ============================================================
+-- E-COMMERCE SALES & CUSTOMER ANALYTICS
+-- Advanced Power BI DAX Measure Pack
+-- ============================================================
+
+-- CORE KPIs
+Total Sales = SUM(FactSales[SalesAmount])
+
+Total Cost = SUM(FactSales[CostAmount])
+
+Total Profit = SUM(FactSales[Profit])
+
+Total Orders = DISTINCTCOUNT(FactSales[OrderID])
+
+Total Customers = DISTINCTCOUNT(FactSales[CustomerID])
+
+Total Quantity = SUM(FactSales[Quantity])
+
+Products Sold = DISTINCTCOUNT(FactSales[ProductID])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)
+
+Revenue Per Customer = DIVIDE([Total Sales], [Total Customers], 0)
+
+Orders Per Customer = DIVIDE([Total Orders], [Total Customers], 0)
+
+Average Selling Price = DIVIDE([Total Sales], [Total Quantity], 0)
+
+Average Delivery Days = AVERAGE(DimShipping[DeliveryDays])
+
+
+-- TIME INTELLIGENCE
+Previous Year Sales =
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR(DimDate[Date])
+)
+
+YoY Sales Growth % =
+DIVIDE(
+    [Total Sales] - [Previous Year Sales],
+    [Previous Year Sales],
+    0
+)
+
+Previous Year Profit =
+CALCULATE(
+    [Total Profit],
+    SAMEPERIODLASTYEAR(DimDate[Date])
+)
+
+YoY Profit Growth % =
+DIVIDE(
+    [Total Profit] - [Previous Year Profit],
+    [Previous Year Profit],
+    0
+)
+
+Sales YTD =
+TOTALYTD([Total Sales], DimDate[Date])
+
+Profit YTD =
+TOTALYTD([Total Profit], DimDate[Date])
+
+Sales MTD =
+TOTALMTD([Total Sales], DimDate[Date])
+
+Profit MTD =
+TOTALMTD([Total Profit], DimDate[Date])
+
+
+-- ORDER / OPERATIONS
+Delivered Orders =
+CALCULATE(
+    [Total Orders],
+    FactSales[OrderStatus] = "Delivered"
+)
+
+Cancelled Orders =
+CALCULATE(
+    [Total Orders],
+    FactSales[OrderStatus] = "Cancelled"
+)
+
+Pending Orders =
+CALCULATE(
+    [Total Orders],
+    FactSales[OrderStatus] = "Pending"
+)
+
+Delivered Order % =
+DIVIDE([Delivered Orders], [Total Orders], 0)
+
+Cancellation Rate % =
+DIVIDE([Cancelled Orders], [Total Orders], 0)
+
+
+-- CUSTOMER ANALYTICS
+Customers With Orders =
+DISTINCTCOUNT(FactSales[CustomerID])
+
+High Value Customers =
+CALCULATE(
+    [Total Customers],
+    DimCustomer[Segment] = "High Value"
+)
+
+Medium Value Customers =
+CALCULATE(
+    [Total Customers],
+    DimCustomer[Segment] = "Medium Value"
+)
+
+Low Value Customers =
+CALCULATE(
+    [Total Customers],
+    DimCustomer[Segment] = "Low Value"
+)
+
+
+-- PROFITABILITY
+Loss Making Orders =
+CALCULATE(
+    [Total Orders],
+    FILTER(
+        FactSales,
+        FactSales[Profit] < 0
+    )
+)
+
+Loss Making Order % =
+DIVIDE([Loss Making Orders], [Total Orders], 0)
+
+Profit Per Order =
+DIVIDE([Total Profit], [Total Orders], 0)
+
+
+-- TOP-N / RANKING
+Product Sales Rank =
+RANKX(
+    ALL(DimProduct[ProductName]),
+    [Total Sales],
+    ,
+    DESC,
+    Dense
+)
+
+Customer Sales Rank =
+RANKX(
+    ALL(DimCustomer[CustomerName]),
+    [Total Sales],
+    ,
+    DESC,
+    Dense
+)
+
+Category Sales Rank =
+RANKX(
+    ALL(DimProduct[Category]),
+    [Total Sales],
+    ,
+    DESC,
+    Dense
+)
+
+
+-- DYNAMIC METRIC SELECTOR
+-- Create a disconnected table named Metric Selector with:
+-- "Sales", "Profit", "Orders", "Customers"
+Selected Metric Value =
+VAR Metric = SELECTEDVALUE('Metric Selector'[Metric], "Sales")
+RETURN
+SWITCH(
+    Metric,
+    "Sales", [Total Sales],
+    "Profit", [Total Profit],
+    "Orders", [Total Orders],
+    "Customers", [Total Customers],
+    [Total Sales]
+)
+
+
+-- DYNAMIC TITLE
+Dynamic Performance Title =
+VAR Metric = SELECTEDVALUE('Metric Selector'[Metric], "Sales")
+RETURN
+Metric & " Performance by Month"
+
+
+-- TOP-N CONTROL
+-- Create disconnected table:
+-- Top N Selector = GENERATESERIES(5, 20, 5)
+
+Top N Selected =
+SELECTEDVALUE('Top N Selector'[Value], 10)
+
+Product Top N Flag =
+IF(
+    [Product Sales Rank] <= [Top N Selected],
+    1,
+    0
+)
